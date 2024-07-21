@@ -84,36 +84,25 @@ Sebelum memulai, pastikan Anda telah memenuhi persyaratan berikut:
 
 ### Installation
 
-1. **Clone the repository**
+1. **Arahkan ke direktori proyek**
 
    ```sh
-   git clone https://github.com/ImamHaqi23/Skill-Fit-Test
-
-2. **Arahkan ke direktori proyek**
-
-   ```sh
+   cd .. (untuk pindah ke direktori utama, dimana sebelumnya Anda berada di folder rt-management-be)
    cd rt-management-fe
 
-3. **Install the dependencies**
+2. **Install the dependencies**
 
    ```sh
    npm install
    
-4. **Buat sebuah file .env di direktori root proyek dan tambahkan variabel lingkungan berikut ini:**
+3. **Buat sebuah file .env di direktori root proyek dan tambahkan variabel lingkungan berikut ini:**
 
    Silahkan masukkan API sesuai apa yang telah anda buat  
 
    ```sh
    VITE_API_BASE_URL = your-api-base-url (Contoh: http://localhost:4000)
 
-
-5. **Jalankan Programnya**
+4. **Jalankan Programnya**
 
    ```sh
    npm run dev
-    
-
-
-  
-
-   
