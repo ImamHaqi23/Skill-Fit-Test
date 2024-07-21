@@ -42,7 +42,7 @@ Sebelum memulai, pastikan Anda telah memenuhi persyaratan berikut:
    
 4. **Buat sebuah file .env di direktori root proyek dan tambahkan variabel lingkungan berikut ini:**
 
-   Silahkan masukkan port sesuai yang diinginkan. Dan masukkan nama database yang telah kamu buat dan masukkan username dan password. Dan jangan lupa setelah mendaftar di Cloudinary masukkan cloud name, api key, dan api secret di akun Cloudinarymu.  
+   Silahkan masukkan port sesuai yang diinginkan. Dan masukkan nama database yang telah kamu buat dan masukkan username dan password (jika menggunakannya). Dan jangan lupa setelah mendaftar di Cloudinary masukkan cloud name, api key, dan api secret di akun Cloudinarymu.  
 
    ```sh
    PORT= your-port (Contoh : 4000)
