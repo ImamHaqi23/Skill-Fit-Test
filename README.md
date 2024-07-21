@@ -1,6 +1,8 @@
-## Project Backend
+# Dashboard RT Management
 
-This is a backend project built with Express.js, MySQL, CORS, dotenv, Sequelize, Sequelize-CLI, and Cloudinary.
+Selamat datang di Dashboard RT Management! Proyek ini menyediakan aplikasi dashboard yang dibangun dengan React.js untuk Frontend Dan Express.js untuk Backend.
+
+## Project Backend
 
 ### Teknologi yang digunakan
 
@@ -59,6 +61,53 @@ Sebelum memulai, pastikan Anda telah memenuhi persyaratan berikut:
    npx sequelize-cli db:migrate
 
 6. **Jalankan Programnya**
+
+   ```sh
+   npm run dev
+
+## Project Front End
+
+### Teknologi yang digunakan
+
+- React.js
+- Vite
+- Axios
+- React Router DOM
+- Tailwind CSS
+- ui.shadcn
+  
+### Prasyarat
+
+Sebelum memulai, pastikan Anda telah memenuhi persyaratan berikut:
+
+- Node.js dan npm terinstal di komputer/laptop Anda. Anda dapat mengunduhnya dari [nodejs.org](https://nodejs.org/).
+
+### Installation
+
+1. **Clone the repository**
+
+   ```sh
+   git clone https://github.com/ImamHaqi23/Skill-Fit-Test
+
+2. **Arahkan ke direktori proyek**
+
+   ```sh
+   cd rt-management-fe
+
+3. **Install the dependencies**
+
+   ```sh
+   npm install
+   
+4. **Buat sebuah file .env di direktori root proyek dan tambahkan variabel lingkungan berikut ini:**
+
+   Silahkan masukkan API sesuai apa yang telah anda buat  
+
+   ```sh
+   VITE_API_BASE_URL = your-api-base-url (Contoh: http://localhost:4000)
+
+
+5. **Jalankan Programnya**
 
    ```sh
    npm run dev
